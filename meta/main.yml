@@ -32,10 +32,10 @@ galaxy_info:
   #
   # platforms is a list of platforms, and each platform has a name and a list of versions.
   #
-  # platforms:
-  # - name: Fedora
-  #   versions:
-  #   - all
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
   #   - 25
   # - name: SomePlatform
   #   versions:
@@ -43,6 +43,8 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  categories:
+  - system
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
